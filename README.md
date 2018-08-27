@@ -1,1 +1,3 @@
-# Home Page for a game that I am developing using Unity and C#
+# Faded Domain
+
+Homepage for a game I am developing
