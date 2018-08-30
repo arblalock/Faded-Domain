@@ -1,0 +1,135 @@
+/* font-family: 'M PLUS 1p', sans-serif;
+font-family: 'Arimo', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+body {
+  font-family: 'M PLUS 1p', sans-serif;
+  color: white;
+}
+
+#splash_sec {
+  height: 1000px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("./imgs/Background.png");
+  background-size: cover;
+  resize: both;
+  background-attachment: fixed;
+}
+
+#title_logo {
+  display: block;
+  max-width: 800px;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px 20px 20px 20px;
+}
+
+#email_cont {
+  padding: 80px 0px;
+  background-color: black;
+}
+
+.gameplay_sec {
+  padding: 40px 0px;
+  background-color: black
+}
+
+#mc_embed_signup {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+}
+
+#mce-EMAIL {
+  max-width: 400px;
+  height: 45px;
+}
+
+.sub-h1 {
+  text-align: center;
+  margin: 0px;
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  margin: 0px;
+  padding: 20px 10px;
+}
+
+.lg-head {
+  font-size: 30px;
+}
+
+#dl-btn-row {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 300px;
+  text-align: center;
+}
+
+#dl-btn {
+  font-size: 24px;
+  margin: 10px;
+  padding: 10px 30px;
+  background-color: #0058b7;
+}
+
+.fas {
+  padding-left: 5px;
+}
+
+.gameplay_sec {
+  height: 900px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  resize: both;
+  background-attachment: fixed;
+}
+
+.cap-cont {
+  /* height: 100px; */
+  background-color: black;
+}
+
+#gply-1 {
+  background-image: url("./imgs/Gameplay-d.png");
+}
+
+#gply-2 {
+  background-image: url("./imgs/Gameplay-c.png");
+}
+
+#gply-3 {
+  background-image: url("./imgs/Gameplay-b.png");
+}
+
+footer {
+  background-color: black;
+  border-top: 1px solid rgba(100, 100, 100, 0.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px 10px 60px 10px;
+  font-size: 20px;
+  align-items: flex-end;
+  text-align: center
+}
+
+.f-row {
+  margin-top: 2px;
+}
+
+.soc-row a{
+  margin-right: 12px;
+  font-size: 30px;
+  height: 10px;
+  /* color: rgb(0, 119, 181); */
+  color: rgb(210,210,210);
+}
