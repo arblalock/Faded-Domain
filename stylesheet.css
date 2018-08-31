@@ -12,7 +12,7 @@ body {
   height: 1000px;
   width: 100%;
   background-repeat: no-repeat;
-  background-image: url("./imgs/Background.png");
+  background-image: url("./imgs/Background_u.png");
   background-size: cover;
   resize: both;
   background-attachment: fixed;
@@ -100,15 +100,15 @@ h2 {
 }
 
 #gply-1 {
-  background-image: url("./imgs/Gameplay-d.png");
+  background-image: url("./imgs/Gameplay-1.jpg");
 }
 
 #gply-2 {
-  background-image: url("./imgs/Gameplay-c.png");
+  background-image: url("./imgs/Gameplay-2.jpg");
 }
 
 #gply-3 {
-  background-image: url("./imgs/Gameplay-b.png");
+  background-image: url("./imgs/Gameplay-3.jpg");
 }
 
 footer {
