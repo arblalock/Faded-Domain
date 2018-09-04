@@ -1,5 +1,5 @@
 # Faded Domain
 
-Homepage for a game I am developing using the Unity3D game engine. 
+Homepage for an FPS game I am developing with physics-based building ab=nd survival/rogue-like elements. It is being Developed using the Unity3D game engine. 
 
 **Link to homepage**: https://arblalock.github.io/Faded-Domain/
