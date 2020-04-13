@@ -8,14 +8,9 @@ body {
   color: white;
 }
 
-#splash_sec {
-  height: 1000px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-image: url("./imgs/Background_u.png");
-  background-size: cover;
-  resize: both;
-  background-attachment: fixed;
+#title-background{
+    width: 100%;
+    height: 100%;
 }
 
 #title_logo {
@@ -31,10 +26,6 @@ body {
   background-color: black;
 }
 
-.gameplay_sec {
-  padding: 40px 0px;
-  background-color: black
-}
 
 #mc_embed_signup {
   margin: 0 auto;
@@ -80,18 +71,13 @@ h2 {
   background-color: #0058b7;
 }
 
-
 .fas {
   padding-left: 5px;
 }
 
-.gameplay_sec {
-  height: 900px;
+.gameplay_img {
+  height: 100%;
   width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  resize: both;
-  background-attachment: fixed;
 }
 
 .cap-cont {
@@ -99,17 +85,6 @@ h2 {
   background-color: black;
 }
 
-#gply-1 {
-  background-image: url("./imgs/Gameplay-1.jpg");
-}
-
-#gply-2 {
-  background-image: url("./imgs/Gameplay-2.png");
-}
-
-#gply-3 {
-  background-image: url("./imgs/Gameplay-3.jpg");
-}
 
 footer {
   background-color: black;
