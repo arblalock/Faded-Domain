@@ -310,12 +310,13 @@ footer {
 
 
     #title_logo{
-        width: 80%;
-        margin-top: 60%;
+        width: 98%;
+        margin-top: 100%;
     }
 
     #dl-btn {
-        margin-top: 100%;
+        margin-top: 190%;
+        font-size: 12px;
     }
 
 
@@ -323,9 +324,6 @@ footer {
         font-size: 18px;
     }
 
-    #dl-btn{
-        font-size: 16px;
-    }
 
 
     .sub-h1{
