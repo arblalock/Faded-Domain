@@ -9,53 +9,33 @@ body {
     color: white;
 }
 
-#splash_sec {
-    /* height: 1000px; */
-    height: 100%;
+.b-img {
+    height: 1000px;
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url("./imgs/Background.png");
     background-size: cover;
+    resize: both;
+    background-attachment: fixed;
+    background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    resize: both;
-    overflow: hidden;
-    /* background-attachment: fixed; */
-    background-position: center center;
+}
+
+#splash_sec {
+    background-image: url("./imgs/Background.png");
 }
 
 #gply-1 {
-    height: 1000px;
-    width: 100%;
-    background-repeat: no-repeat;
     background-image: url("./imgs/Gameplay-1.jpg");
-    background-size: cover;
-    resize: both;
-    background-attachment: fixed;
-    background-position: center center;
 }
 
 #gply-2 {
-    height: 1000px;
-    width: 100%;
-    background-repeat: no-repeat;
     background-image: url("./imgs/Gameplay-2.jpg");
-    background-size: cover;
-    resize: both;
-    background-attachment: fixed;
-    background-position: center center;
 }
 
 #gply-3 {
-    height: 1000px;
-    width: 100%;
-    background-repeat: no-repeat;
     background-image: url("./imgs/Gameplay-3.jpg");
-    background-size: cover;
-    resize: both;
-    background-attachment: fixed;
-    background-position: center center;
 }
 
 #logo-img-cont {
@@ -312,5 +292,8 @@ footer {
     }
     #gply-3 {
         background-position: 20% 0%;
+    }
+    .b-img {
+        background-attachment: scroll;
     }
 }
