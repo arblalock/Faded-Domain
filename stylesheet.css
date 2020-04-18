@@ -3,56 +3,60 @@ font-family: 'Arimo', sans-serif;
 font-family: 'Work Sans', sans-serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif; */
+
 body {
-  font-family: 'M PLUS 1p', sans-serif;
-  color: white;
+    font-family: "M PLUS 1p", sans-serif;
+    color: white;
 }
 
-
-#splash_sec{
+#splash_sec {
     height: 1000px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-image: url("./imgs/Background.png");
-  background-size: cover;
-  resize: both;
-  background-attachment: fixed;
-  background-position: center center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("./imgs/Background.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    resize: both;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
-#gply-1{
+#gply-1 {
     height: 1000px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-image: url("./imgs/Gameplay-1.jpg");
-  background-size: cover;
-  resize: both;
-  background-attachment: fixed;
-  background-position: center center;
-}
-#gply-2{
-    height: 1000px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-image: url("./imgs/Gameplay-2.jpg");
-  background-size: cover;
-  resize: both;
-  background-attachment: fixed;
-  background-position: center center;
-}
-#gply-3{
-    height: 1000px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-image: url("./imgs/Gameplay-3.jpg");
-  background-size: cover;
-  resize: both;
-  background-attachment: fixed;
-  background-position: center center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("./imgs/Gameplay-1.jpg");
+    background-size: cover;
+    resize: both;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
+#gply-2 {
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("./imgs/Gameplay-2.jpg");
+    background-size: cover;
+    resize: both;
+    background-attachment: fixed;
+    background-position: center center;
+}
 
-#logo-img-cont{
+#gply-3 {
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("./imgs/Gameplay-3.jpg");
+    background-size: cover;
+    resize: both;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#logo-img-cont {
     top: 0;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -71,7 +75,7 @@ body {
     margin-top: 22%;
 }
 
-#dl-btn-cont{
+#dl-btn-cont {
     top: 0;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -81,9 +85,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  #dl-btn {
+}
+
+#dl-btn {
     font-size: 1.7vw;
     margin-top: 41%;
     box-shadow: 0 1px 8px #c466ff;
@@ -91,15 +95,14 @@ body {
     background-color: #007bff00;
 }
 
-#dl-btn:hover{
+#dl-btn:hover {
     box-shadow: 0 1px 12px #c466ff;
     background-color: #007bff12;
 }
 
-#dl-btn:active{
+#dl-btn:active {
     margin-top: 41.1%;
     box-shadow: 0 1px 18px #c466ff;
-
 }
 
 #email_cont {
@@ -117,43 +120,41 @@ body {
     position: absolute;
     height: 14%;
     background-color: #000000e8;
-  }
-
-.gameplay_sec{
-    position: relative;
-    background-color: #000b10;
-
 }
 
+.gameplay_sec {
+    position: relative;
+    background-color: #000b10;
+}
 
 #mce-EMAIL:focus {
     outline: none !important;
-    border:1px solid grey;
-    box-shadow: 0 0 1px #719ECE;
+    border: 1px solid grey;
+    box-shadow: 0 0 1px #719ece;
 }
 
 #mc-embedded-subscribe:focus {
     outline: none !important;
-    border:1px solid grey;
-    box-shadow: 0 0 1px #719ECE;
+    border: 1px solid grey;
+    box-shadow: 0 0 1px #719ece;
 }
 
 #mc_embed_signup {
-  margin: 0 auto;
-  display: flex;
-align-items: center;
-justify-content: center;
-  width: 100%;
-  text-align: center;
-  padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
 }
 
-#mc-embedded-subscribe-form{
+#mc-embedded-subscribe-form {
     width: 50%;
     max-width: 550px;
 }
 
-#mc-embedded-subscribe{
+#mc-embedded-subscribe {
     background-color: #0b0a10;
     border: 1px solid white;
 }
@@ -181,25 +182,20 @@ h2 {
 }
 
 .lg-head {
-  font-size: 30px;
+    font-size: 30px;
 }
-
-
 
 .fas {
-  padding-left: 5px;
+    padding-left: 5px;
 }
 
-
-.f-cont{
+.f-cont {
     margin: 10px 0px;
 }
 
-.copyright{
+.copyright {
     font-size: 12px;
 }
-
-
 
 footer {
     background-color: black;
@@ -214,131 +210,105 @@ footer {
 }
 
 .f-row {
-  margin-top: 2px;
+    margin-top: 2px;
 }
 
-.soc-row a{
-  margin-right: 12px;
-  font-size: 30px;
-  height: 10px;
-  color: rgb(210,210,210);
+.soc-row a {
+    margin-right: 12px;
+    font-size: 30px;
+    height: 10px;
+    color: rgb(210, 210, 210);
 }
 
-@media only screen and (min-width: 1200px)   {
-    #dl-btn{
+@media only screen and (min-width: 1200px) {
+    #dl-btn {
         font-size: 28px;
     }
-
-    .gameplay_img{
+    .gameplay_img {
         width: 100%;
         height: 100%;
     }
-
-    #title_logo{
+    #title_logo {
         width: 60%;
     }
-
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 900px)  {
-
-    #title_logo{
+@media only screen and (max-width: 1200px) and (min-width: 900px) {
+    #title_logo {
         width: 90%;
     }
-
-    h2{
+    h2 {
         font-size: 32px;
     }
-
-    #dl-btn{
+    #dl-btn {
         font-size: 26px;
         margin-top: 61%;
     }
-
-    .gameplay_img{
+    .gameplay_img {
         width: auto;
         height: 100%;
     }
-
-    .sub-h1{
+    .sub-h1 {
         font-size: 30px;
     }
 }
 
-
-@media only screen and (max-width: 900px) and (min-width: 500px)  {
-
-    #mc-embedded-subscribe-form{
+@media only screen and (max-width: 900px) and (min-width: 500px) {
+    #mc-embedded-subscribe-form {
         width: 80%;
     }
-
-    #title_logo{
+    #title_logo {
         width: 90%;
         margin-top: 40%;
     }
-
     #dl-btn {
         margin-top: 80%;
         font-size: 16px;
     }
-
-    h2{
+    h2 {
         font-size: 22px;
     }
-    .sub-h1{
+    .sub-h1 {
         font-size: 28px;
     }
-    .gameplay_img{
+    .gameplay_img {
         width: auto;
         height: 100%;
     }
-
-    #gply-2{
+    #gply-2 {
         background-position: 40% 0%;
     }
-
-    #gply-3{
+    #gply-3 {
         background-position: 10% 0%;
     }
 }
 
-@media only screen and (max-width: 500px)  {
-
-    #mc-embedded-subscribe-form{
+@media only screen and (max-width: 500px) {
+    #mc-embedded-subscribe-form {
         width: 100%;
     }
-
-
-    #title_logo{
+    #title_logo {
         width: 98%;
         margin-top: 100%;
     }
-
     #dl-btn {
         margin-top: 190%;
         font-size: 12px;
     }
-
-
-    h2{
+    h2 {
         font-size: 18px;
     }
-
-
-
-    .sub-h1{
+    .sub-h1 {
         font-size: 23px;
     }
-    .gameplay_img{
+    .gameplay_img {
         width: auto;
         height: 100%;
     }
-
-    #gply-2{
+    #gply-2 {
         background-position: 47% 0%;
     }
-
-    #gply-3{
+    #gply-3 {
         background-position: 20% 0%;
     }
 }
